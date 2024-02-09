@@ -1,9 +1,7 @@
-import java.util.ArrayList;
-
-public class ArraList {
+public class ArrayList {
 
     public static void main(String[] args) {
-        ArrayList<String> food = new ArrayList<>();
+        java.util.ArrayList<String> food = new java.util.ArrayList<>();
         System.out.println("food.add(\"Pizza\");" + food.add("Pizza"));
         System.out.println("food.add(\"Hamburger\");" + food.add("Hamburguer"));
         System.out.println("food.add(\"Hotdog\");" + food.add("hotdog"));
