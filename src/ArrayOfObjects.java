@@ -8,15 +8,16 @@ public class ArrayOfObjects {
         String[] strings = new String[5];
 
         // Arrays de objetos
-        Food[] refrigeragor = new Food[3];
+       // Food[] refrigeragor = new Food[3];
         var food1 = new Food("Pizza");
         var food2 = new Food("Hamburger");
         var food3 = new Food("Hot dog");
 
+        Food[] refrigeragor = {food1, food2, food3};
 
-        refrigeragor[0] = food1;
-        refrigeragor[1] = food2;
-        refrigeragor[2] = food3;
+       //refrigeragor[0] = food1;
+        //refrigeragor[1] = food2;
+       //refrigeragor[2] = food3;
 
 
         System.out.println(refrigeragor[0].getName());
